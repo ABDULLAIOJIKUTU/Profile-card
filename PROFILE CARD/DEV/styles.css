@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #f0f0f0; */
+  background-color: #aab7f549;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 35px;
+  text-align: center;
+  width: 380px;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  width: 450px;
+  padding: 30px 45px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3.5px solid #5c72e2dc;
+}
+
+.profile-picture img {
+  border-radius: 45%;
+  width: 160px;
+  height: inherit;
+  object-fit: cover;
+}
+
+h1 {
+  /* margin: 10px 0 5px; */
+  font-size: 24px;
+  color: #333;
+}
+
+h4 {
+  /* margin: 5px 0; */
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+}
+
+.details {
+  margin: 5px 0;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #aab7f549;
+}
+.details p {
+  margin: 5px 0;
+}
+
+.details p a:any-link {
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 15px 10px;
+  border-radius: 5px;
+  background-color: #aab7f549;
+}
+
+.social-link {
+  width: auto;
+  margin: 0 10px;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-links .linkedin {
+  color: #2575fc;
+  background-color: #fff;
+  border: solid 3px #2575fc;
+  transition: all 0.3s ease-in-out;
+}
+.social-links .linkedin:hover {
+  color: #fff;
+  background-color: #2575fc;
+  font-weight: 500;
+}
+.social-links .github {
+  color: #202121;
+  background-color: #fff;
+  border: solid 3px #202121;
+  transition: all 0.3s ease-in-out;
+}
+.social-links .github:hover {
+  background-color: #202121;
+  color: #fff;
+  font-weight: 500;
+}
+.social-links .twitter {
+  width: 50px;
+  color: #202121;
+  background-color: #fff;
+  border: solid 3px #202121;
+  transition: all 0.3s ease-in-out;
+}
+.social-links .twitter:hover {
+  color: #fff;
+  background-color: #202121;
+  font-weight: 500;
+}
+
+.utc-time {
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #aab7f549;
+  /* background-color: #5690f549; */
+  transition: all 0.3s ease-in-out;
+}
+
+.utc-time:hover {
+  color: #5b6161;
+}
